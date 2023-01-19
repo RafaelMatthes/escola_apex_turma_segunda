@@ -1,4 +1,5 @@
 
+
 class Student():
 
     def __init__(self, first_name, last_name, classroom, id=None):
@@ -7,6 +8,6 @@ class Student():
         self.last_name = last_name
         self.classroom = classroom
 
-    def __str__(self):
-        return f"{self.first_name} {self.last_name} - {self.classroom}"
+    # def __str__(self):
+    #     return f"{self.first_name} {self.last_name} - {self.classroom}"
 
